@@ -1,24 +1,20 @@
-# electron-vue
+# Setup
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
+Vue
+```shell
+# serve
+npm run start
+# build
 npm run build
 ```
 
-### Lints and fixes files
+Electron
+```shell
+cd app
+# watch
+npm run dev
+# build package
+npm run pack
+# build dmg
+npm run dist
 ```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
